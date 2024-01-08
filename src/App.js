@@ -18,7 +18,7 @@ export default function Square() {
 
   const buttons = tiles.map(tile => {
     return (
-      <button className="square" key={tile.id} onClick={alertNumber} ></button>
+      <button className="square" key={tile.id} onClick={alertNumber}>{tile.id}</button>
     )
   })
 
